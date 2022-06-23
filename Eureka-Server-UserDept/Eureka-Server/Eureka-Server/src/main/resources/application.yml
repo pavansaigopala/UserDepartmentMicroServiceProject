@@ -1,0 +1,7 @@
+eureka:
+  client:
+    fetch-Registry: false
+    register-With-Eureka: false
+
+server:
+  port: 8761

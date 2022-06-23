@@ -1,0 +1,24 @@
+
+server:
+  port: 8333
+spring:
+  application:
+    name: User-Service
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.H2Dialect
+     
+  h2:
+    console:
+      enabled: true
+      path: /h4
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: pa
+    password: pa
+    url: jdbc:h2:mem:testdb
+    
+    
